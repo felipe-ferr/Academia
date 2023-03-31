@@ -1,0 +1,315 @@
+*{
+	box-sizing: border-box;
+	
+}
+body {
+	margin:0px;
+	background-color: black;
+}
+a {
+	text-decoration: none;
+}
+
+.header {
+	background-color: 1D1B1D;
+	height:100px;
+	margin-top: -20px;
+	
+
+}
+.header img{
+	float:left;
+	display:flex;
+	margin-top: 10px;
+	margin-right:5px;
+	width: 350px;
+	height: 80px;
+}
+	
+.header a{
+	font-size: 20px;
+	font-family: Verdana, sans-serif;
+	text-align: center;
+	padding:40px;
+	float:left;
+	height: 100px;
+	color:white;
+	transition-duration: 0.5s;
+	overflow:hidden;
+}
+.header a:hover{
+	background-color:Purple;
+	transform:translateX(5px);
+	
+}
+
+
+.titulos {
+	font-size: 70px;
+	font-family: Trebuchet MS, sans-serif;
+	text-align: center;
+	margin-bottom: -70px;
+	color:white;
+}
+.aulas-container {
+	display: flex;
+    flex-wrap: nowrap;
+    margin-top:100px;
+    border-radius: 5px;
+	margin-left:1cm;
+    margin-right:1cm;
+  
+}
+
+.musculacao {
+	background-image: url("imagem/home/musculacao.png");
+	background-size: cover;
+	background-position:center;
+	height:500px;
+	display: flex;
+	margin-top: 100px;
+	padding: 20px;
+	width: 33.3%;
+	text-decoration: none;
+	transition-duration: 0.5s;
+	
+}
+.musculacao p {
+	font-size: 70px;
+	font-family: Trebuchet MS, sans-serif;
+	text-align: left;
+	padding:10px;
+	color: white;
+	background-color: rgba(128,0,128,0.8);
+}
+.musculacao a{
+	color:rgba(0, 0, 0, 0);
+	overflow: hidden;
+	transition-duration: 0.5s;
+	font-size: 70px;
+	font-family: Trebuchet MS, sans-serif;
+	text-align: left;
+}
+
+.musculacao:hover{
+	transform: translatey(5px);
+	
+}
+
+.musculacao a:hover{
+	transform: translatey(5px);
+	color:white;
+}
+
+.luta{
+	background-image: url("imagem/home/luta.png");
+	background-size: cover;
+	background-position:center;
+	height:500px;
+	display: flex;
+	margin-top: 100px;
+	padding: 20px;
+	width: 33.3%;
+	text-decoration: none;
+	transition-duration: 0.5s;
+	margin-left: 10px;
+}
+.luta p {
+	font-size: 70px;
+	font-family: Trebuchet MS, sans-serif;
+	text-align: center;
+	padding:10px;
+	color: white;
+	background-color: rgba(128,0,128,0.8);
+}
+.luta a{
+	color:rgba(0, 0, 0, 0);
+	overflow: hidden;
+	transition-duration: 0.5s;
+	font-size: 70px;
+	font-family: Trebuchet MS, sans-serif;
+	text-align: left;
+}
+
+.luta a:hover{
+	transform: translatey(5px);
+	color:white;
+	
+}
+
+
+.luta:hover {
+	transform: translatey(5px);
+}
+
+.danca {
+	background-image: url("imagem/home/danca.jpeg");
+	background-size: cover;
+	background-position:center;
+	height:500px;
+	display: flex;
+	margin-top: 100px;
+	padding: 20px;
+	width: 33.3%;
+	text-decoration: none;
+	transition-duration: 0.5s;
+	margin-left: 10px;
+
+}
+.danca p {
+	font-size: 70px;
+	font-family: Trebuchet MS, sans-serif;
+	text-align: center;
+	padding:10px;
+	color: white;
+	background-color: rgba(128,0,128,0.8);
+}
+.danca a{
+	color:rgba(0, 0, 0, 0);
+	overflow: hidden;
+	transition-duration: 0.5s;
+	font-size: 70px;
+	font-family: Trebuchet MS, sans-serif;
+	text-align: left;
+}
+
+.danca:hover{
+	transform: translatey(5px);
+	
+}
+
+.danca a:hover{
+	transform: translatey(5px);
+	color:white;
+}
+
+
+.danca:hover{
+	transform: translatey(5px);
+}
+
+
+	
+.planos-container{  
+  display: flex;
+  flex-wrap: wrap;
+  margin-top:100px;
+  border-radius: 5px;
+  margin-left:1cm;
+  margin-right:1cm;
+
+  
+}
+
+.planos {    
+  background-image: url("imagem/home/acad1.jpeg");
+  background-size:cover;
+  flex: 100%;
+  background-color: 1D1B1D;
+  padding: 20px;
+  height:500px;
+  transition-duration: 0.3s;
+  box-shadow: 0px 500px 0px 0px rgba(95,53,128,0.7) inset;
+}
+.planos:hover{
+	transform: translatey(5px);
+}
+
+
+.planos p.texto1{
+	font-size: 70px;
+	font-family: Trebuchet MS, sans-serif;
+	text-align: left;
+	padding:40px;
+	color: white;
+}
+.planos p.texto2 {
+	font-size: 30px;
+    font-family: Trebuchet MS, sans-serif;
+	text-align: left;
+	padding:40px;
+	color: white;
+}
+
+.planos a{
+	text-decoration: none;
+}
+.planoslinks {
+    display:flex;
+    flex: 100%;
+    background-color: 1D1B1D;
+    height:100px;
+ 
+}
+.planoslinks a{
+	border-top: 2px solid purple;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	float: left;
+	display:flex;
+	font-size: 20px;
+	font-family: Verdana, sans-serif;
+	text-align: center;
+	height: 100px;
+	padding: 40px 40px 40px 180px;
+	width:33.3%;
+	height: 100px;
+	color:white;
+	transition-duration: 0.5s;
+	overflow:hidden;
+	
+}
+.planoslinks a:hover{
+	background-color: purple;
+	
+}
+
+.produtos-container {
+	display: flex;
+    flex-wrap: wrap;
+    margin-top:100px;
+    border-radius: 5px;
+    margin-left:1cm;
+    margin-right:1cm;
+	margin-bottom:50px;
+  
+}
+.produtos {
+	background-image: url("imagem/home/suplementos.jpg");
+    background-size:cover;
+    flex: 100%;
+    background-color: 1D1B1D;
+    padding: 20px;
+    height:500px;
+    transition-duration: 0.3s;
+	box-shadow: 0px 500px 0px 0px rgba(95,53,128,0.7) inset;
+	
+}
+
+.produtos p{
+	font-size: 70px;
+	font-family: Trebuchet MS, sans-serif;
+	text-align: left;
+	padding:40px;
+	color: white;
+}
+.produtos:hover{
+	transform: translatey(5px);
+}
+	
+.produtos ul {
+	font-size: 40px;
+	font-family: Trebuchet MS, sans-serif;
+	text-align: left;
+	margin-top:-100px;
+	margin-left: 50px;
+	padding:40px;
+	color: white;
+}
+}
+
+
+
+
+	
+	
