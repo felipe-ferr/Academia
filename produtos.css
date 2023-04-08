@@ -44,18 +44,88 @@ a {
 	transform:translateX(5px);
 }
 
+.suplementos {
+	background-image: linear-gradient(0deg, rgba(6,4,3,1) 5%, rgba(95,53,128,0.5) 70%), url("imagem/produtos/suplementos.png");
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 400px;
+	margin-bottom: 100px;
+}
+.suplementos p {
+	font-size: 90px;
+	font-family: Trebuchet MS, sans-serif;
+	color: white;
+}
+
+
 .container {
 	display:flex;
 	flex-wrap: nowrap;
 	flex-direction: row;
 }
 .lado {
-	flex-wrap: nowrap;
+	flex-wrap: wrap;
+	display:flex;
 	flex: 25%;
-	background-color: grey;
-	height: 50cm;
-	margin-top: 100px;
+	flex-direction: column;
+	background-color: 1D1B1D;
+	height: 42cm;
+	margin-left: 1cm;
+	align-items: center;
+	justify-content: flex-start;
+	gap:10px;
+	text-align: left;
 }
+.procurar {
+	margin-top:50px;
+}
+
+.procurar input[type=text] {
+	height: 50px;
+	border: none;
+	display: inline-flex;
+
+
+}
+.procurar button {
+	background-color: purple;
+	float: right;
+    border: none;
+    cursor: pointer;
+	height: 50px;
+	width: 50px;
+}
+
+.lado h1 {
+	background-color: Purple;
+	font-size: 40px;
+	width: 100%;
+	font-family: Trebuchet MS, sans-serif;
+	text-align: center;
+	color:white;
+}
+
+
+.lado p{
+	font-size: 20px;
+	font-family: Trebuchet MS, sans-serif;
+	color:white;
+	margin:0px;
+
+}
+.lado p:hover{
+	text-decoration: underline;
+	transform: scale(1.1);
+	cursor: not-allowed;
+}
+
+
+	
+
+
 
 .principal {
 	flex-wrap: wrap;
@@ -63,8 +133,7 @@ a {
 	flex: 25%;
 	flex-direction: column;
 	background-color: 1D1B1D;
-	height: 50cm;
-	margin-top: 100px;
+	height: 42cm;
 	margin-left: 1cm;
 	align-items: center;
 	
@@ -75,8 +144,7 @@ a {
 	flex: 25%;
 	flex-direction: column;
 	background-color: 1D1B1D;
-	height: 50cm;
-	margin-top: 100px;
+	height: 42cm;
 	align-items: center;
 	
 }
@@ -86,8 +154,7 @@ a {
 	flex: 25%;
 	flex-direction: column;
 	background-color: 1D1B1D;
-	height: 50cm;
-	margin-top: 100px;
+	height: 42cm;
 	align-items: center;
 	margin-right: 1cm;
 	
@@ -152,6 +219,7 @@ a {
 }
 
 .produtodesc p {
+	text-align: center;
 	margin-top: 0px;
 	color:white;
 	font-size: 20px;
@@ -175,11 +243,11 @@ a {
 	outline: none;
 	border-radius: 5px;
 	overflow: hidden;
-	font-family: Candara, sans-serif;
-	font-size: 16px;
-	font-weight: 500;
+	font-family: Trebuchet MS, sans-serif;
+	font-size: 15px;
 	cursor: pointer;
-	transition: 0.5s;
+	transition-duration: 0.2s;
+
 }
 
 .button:hover {
@@ -201,6 +269,41 @@ a {
 .button-icone {
 	font-size: 30px;
 	background-color: rgba(0,0,0,0.2);
+}
+
+.pagamento {
+	display:flex;
+	margin-right: 1cm;
+	margin-left: 1cm;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+	background-color: 330922;
+	height: 70px;
+	margin-bottom: 50px;
+}
+p.pag{
+	text-align: center;
+	margin-top: 0px;
+	color:white;
+	font-size: 25px;
+	font-family: Arial, sans-serif;
+	margin-top: 50px;
+}
+.pagamento img {
+	width: 75px;
+	height: 50px;
+}
+
+p.textosup{
+	text-align: center;
+	font-size: 20px;
+	font-family: Trebuchet MS, sans-serif;
+	color: white;
+	margin-left: 2cm;
+	margin-right: 2cm;
+	background-color: rgba(95,53,128,0.2);
+	padding: 40px;
 }
 
 
