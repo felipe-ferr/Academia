@@ -15,6 +15,7 @@ a {
 
 
 
+
 /*cabeçalho*/
 .header {
 	background-color: 1D1B1D;
@@ -31,7 +32,7 @@ a {
 }
 .header a{  /*links do cabeçalho*/
 	font-size: 20px;
-	font-family: Verdana, sans-serif;
+	font-family: 'Poppins', sans-serif;
 	text-align: center;
 	padding:40px;
 	float:left;
@@ -48,7 +49,7 @@ a {
 
 /*primeira imagem*/
 .imagem-container {
-	background-image: linear-gradient(0deg, rgba(6,4,3,1) 10%, rgba(0,0,0,0.2) 100%), url("imagem/home/academia.png"); /*degradê para preto*/
+	background-image: linear-gradient(0deg, rgba(6,4,3,1) 5%, rgba(95,53,128,0.5) 70%), url("imagem/home/academia.png"); /*degradê para preto*/
 	background-size: cover;   
 	background-position:bottom;
 	height:500px;
@@ -58,7 +59,7 @@ a {
 /*titulo nossas modalidades*/
 .titulos {
 	font-size: 70px;
-	font-family: Trebuchet MS, sans-serif;
+    font-family: 'Poppins', sans-serif;
 	text-align: center;
 	color:white;
 }
@@ -86,15 +87,15 @@ a {
 	width: 33.3%; /*tamanho dividido por 100*/
 	text-decoration: none;
 	transition-duration: 0.5s;
+	box-shadow: 0px 500px 0px 0px rgba(95,53,128,0.5) inset;
 }
 
 .musculacao p {
 	font-size: 70px;
-	font-family: Trebuchet MS, sans-serif;
+	font-family: 'Signika Negative', sans-serif;
 	text-align: left;
 	padding:10px;
 	color: white;
-	background-color: rgba(128,0,128,0.8); /*fundo roxo*/
 }
 
 /*gambiarra pra fazer o texto aparecer*/
@@ -103,7 +104,7 @@ a {
 	overflow: hidden;
 	transition-duration: 0.5s;
 	font-size: 70px;
-	font-family: Trebuchet MS, sans-serif;
+	font-family: 'Poppins', sans-serif;
 	text-align: left;
 }
 
@@ -130,21 +131,21 @@ a {
 	text-decoration: none;
 	transition-duration: 0.5s;
 	margin-left: 10px;
+	box-shadow: 0px 500px 0px 0px rgba(95,53,128,0.5) inset;
 }
 .luta p {
 	font-size: 70px;
-	font-family: Trebuchet MS, sans-serif;
+	font-family: 'Poppins', sans-serif;
 	text-align: center;
 	padding:10px;
 	color: white;
-	background-color: rgba(128,0,128,0.8);
 }
 .luta a{
 	color:rgba(0, 0, 0, 0);
 	overflow: hidden;
 	transition-duration: 0.5s;
 	font-size: 70px;
-	font-family: Trebuchet MS, sans-serif;
+	font-family: 'Poppins', sans-serif;
 	text-align: left;
 }
 
@@ -168,21 +169,22 @@ a {
 	text-decoration: none;
 	transition-duration: 0.5s;
 	margin-left: 10px;
+	box-shadow: 0px 500px 0px 0px rgba(95,53,128,0.5) inset;
 }
 .danca p {
 	font-size: 70px;
-	font-family: Trebuchet MS, sans-serif;
+	font-family: 'Poppins', sans-serif;
 	text-align: center;
 	padding:10px;
 	color: white;
-	background-color: rgba(128,0,128,0.8);
+
 }
 .danca a{
 	color:rgba(0, 0, 0, 0);
 	overflow: hidden;
 	transition-duration: 0.5s;
 	font-size: 70px;
-	font-family: Trebuchet MS, sans-serif;
+	font-family: 'Poppins', sans-serif;
 	text-align: left;
 }
 .danca:hover{
@@ -224,14 +226,14 @@ a {
 
 .planos p.texto1{ /*texto*/
 	font-size: 70px;
-	font-family: Trebuchet MS, sans-serif;
+	font-family: 'Poppins', sans-serif;
 	text-align: left;
 	padding:40px;
 	color: white;
 }
 .planos p.texto2 { /*texto de baixo*/
 	font-size: 30px;
-    font-family: Trebuchet MS, sans-serif;
+    font-family: 'Poppins', sans-serif;
 	text-align: left;
 	padding:40px;
 	color: white;
@@ -254,7 +256,7 @@ a {
 	float: left;
 	display:flex;
 	font-size: 20px;
-	font-family: Verdana, sans-serif;
+	font-family: 'Poppins', sans-serif;
 	text-align: center;
 	height: 100px;
 	padding: 40px 40px 40px 180px;
@@ -297,7 +299,7 @@ a {
 }
 .produtos p{ /*texto*/
 	font-size: 70px;
-	font-family: Trebuchet MS, sans-serif;
+	font-family: 'Poppins', sans-serif;
 	text-align: left;
 	padding:40px;
 	color: white;
@@ -308,7 +310,7 @@ a {
 }
 .produtos ul { /*config da lista de produtos*/
 	font-size: 40px;
-	font-family: Trebuchet MS, sans-serif;
+	font-family: 'Poppins', sans-serif;
 	text-align: left;
 	margin-top:-100px;
 	margin-left: 50px;
@@ -343,7 +345,7 @@ a {
 	margin:20px;
 	display:flex;
 	font-size: 80px;
-	font-family: Trebuchet MS, sans-serif;
+	font-family: 'Poppins', sans-serif;
     color: white;
 	margin-left: 305px;
 /*fim do titulo sobre nos*/	
@@ -363,7 +365,7 @@ a {
 	display:flex;
 	flex:100%;
 	font-size: 30px;
-	font-family: Trebuchet MS, sans-serif;
+	font-family: 'Poppins', sans-serif;
 	text-align: center;
 	padding:40px;
     color: white;
@@ -394,7 +396,7 @@ a {
 	flex:100%;
 	font-size: 30px;
 	justify-content: center;
-	font-family: Trebuchet MS, sans-serif;
+	font-family: 'Poppins', sans-serif;
     color: black;
 }
 /*logos das redes*/
@@ -433,7 +435,7 @@ a {
 
 
 /*config para telas menores que 800px*/
-@media (max-width: 800px) {
+@media (max-width: 900px) {
 .planoslinks {
     display:flex;
     flex: 50%;
@@ -441,10 +443,15 @@ a {
     height:100px;
 	margin-bottom: 100px;
 	margin-top: 100px;
+	background-color: black;
+	
 }
 .planoslinks a{
     border-top: 0px solid purple;
 	flex-direction: column;
+}
+.planoslinks a:hover{
+	background-color: black;
 }
 
 p.texto2{
