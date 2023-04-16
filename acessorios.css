@@ -14,34 +14,46 @@ a {
 
 
 
-
 /*cabeçalho*/
 .header {
 	background-color: 1D1B1D;
 	height:100px;
+	display:flex;
+	align-items:center;
 	
 }
+.header ion-icon {
+	font-size: 30px;
+	}
+
 .header img{ /*logo*/
 	float:left;
-	margin-top: 10px;
+	display:flex;
 	margin-right:5px;
 	width: 350px;
 	height: 80px;
 }
+
 .header a{  /*links do cabeçalho*/
+    display: flex;
+	width: 150px;
 	font-size: 20px;
 	font-family: 'Poppins', sans-serif;
 	text-align: center;
-	padding:40px;
+	padding:0px;
 	float:left;
 	height: 100px;
 	color:white;
 	transition-duration: 0.5s;
 	overflow:hidden;
+	align-items:center;
+	justify-content:center;
 }
 .header a:hover{ /*passar o mouse por cima*/
-	background-color:Purple;
-	transform:translateX(5px);
+	transform:translateX(7px);
+	color: DDBADD;
+	cursor:pointer;
+	box-shadow: inset 0px -3px purple;
 }
 
 .suplementos {
@@ -141,9 +153,7 @@ a {
 	height: 42cm;
 	margin-left: 1cm;
 	align-items: center;
-	border-top: 2px solid purple;
-	border-bottom: 2px solid purple;
-	border-left: 2px solid purple;
+	
 	
 }
 .principal2 {
@@ -154,9 +164,6 @@ a {
 	background-color: 1D1B1D;
 	height: 42cm;
 	align-items: center;
-	border-top: 2px solid purple;
-	border-bottom: 2px solid purple;
-
 	
 }
 .principal3 {
@@ -168,9 +175,7 @@ a {
 	height: 42cm;
 	align-items: center;
 	margin-right: 1cm;
-	border-right: 2px solid purple;
-	border-top: 2px solid purple;
-	border-bottom: 2px solid purple;
+
 	
 }
 
@@ -368,47 +373,110 @@ p.textosup{
 
 
 
-
 .footer-container {
 	display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 	margin-top: 250px;
 	height:400px;
+	justify-content: center;
+	align-items:center;
+	flex-direction: column;
+	overflow:hidden;
+	
 }
 
 /*fundo*/
 .footer {
+	display:flex;
 	background-color: grey;
-    flex: 100%;
+    width: 100%;
     height:400px;
+	justify-content: center;
+	align-items:center;
+	flex-direction: column;
 }
 /*texto*/
 .footer p{
 	display:flex;
-	flex:100%;
 	font-size: 30px;
 	justify-content: center;
 	font-family: 'Poppins', sans-serif;
     color: black;
+	justify-content: center;
+	align-items:center;
 }
-/*logos das redes*/
-.footer img{
-	width: 50px;
-	height: 50px;
-	margin-right: 40px;
+
+/*posicionar logos*/
+.acontainer {
+	display:flex;
+	height: 100px;
+	justify-content: space-around;
+	align-items:center;
+	width: 20%;
+}
+
+.footer ion-icon {
+	color: black;
+	font-size: 40px;
 	transition-duration: 0.5s;
+	justify-content: center;
+	align-items:center;
 }
-/*passar o mouse por cima*/
-.footer img:hover{
+
+.footer ion-icon:hover {
 	transform: scale(1.3);
 	opacity: 0.5;
 }
-/*posicionar logos*/
-.footer ul{
-	display: flex;
-	flex-direction: row; /*deixa as imagens em uma linha*/
-	justify-content: center; /*centraliza as imagens*/
-	gap:20px;                /*distância entre as imagens*/
-	list-style: none;
-	padding:0x;
+
+
+@media (max-width: 900px) {
+	
+	.header {
+	background-color: 1D1B1D;
+	height:500px;
+	display:flex;
+	align-items:center;
+	flex-direction: column;
+	flex-wrap: wrap;
+	
+}
+.header img{ /*logo*/
+	float:left;
+	display:flex;
+	margin-right:5px;
+	width: 350px;
+	height: 80px;
+}
+
+.header a{  /*links do cabeçalho*/
+    display: flex;
+	width: 150px;
+	font-size: 20px;
+	font-family: 'Poppins', sans-serif;
+	text-align: center;
+	padding:0px;
+	float:left;
+	height: 100px;
+	color:white;
+	transition-duration: 0.5s;
+	overflow:hidden;
+	align-items:center;
+	justify-content:center;
+}
+.header a:hover{ /*passar o mouse por cima*/
+	transform:translateX(7px);
+	color: DDBADD;
+	cursor:pointer;
+	box-shadow: inset 0px -3px purple;
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 }
