@@ -74,6 +74,22 @@ a {
 	color: white;
 }
 
+.texto1container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100px;
+}
+
+.texto1{
+	font-size: 30px;
+	font-family: 'Poppins', sans-serif;
+	color: white;
+	text-align:justify;
+}
+
+
+
 
 .titulocont {
 	width: 100%;
@@ -140,7 +156,7 @@ h1.tituloplano2 ion-icon{
 .side {
 	display:flex;
 	background-color: #0F070F;
-	height:500px;
+	height:582px;
 	width: 30%;
 	align-items:flex-end;
 	justify-content: space-around;
@@ -174,7 +190,7 @@ h1.tituloplano2 ion-icon{
 .plano1 {
 	display:flex;
 	background-color:black;
-	height:500px;
+	height:582px;
 	width: 25%;
 	align-items:flex-end;
 	justify-content: space-around;
@@ -207,7 +223,7 @@ h1.tituloplano2 ion-icon{
 .plano2 {
 	display:flex;
 	background-color: black;
-	height:500px;
+	height:582px;
 	width: 25%;
 	align-items:flex-end;
 	justify-content: space-around;
@@ -359,6 +375,7 @@ h1.tituloplano2 ion-icon{
 	color:black;
 	transform: translatex(8px);
 }
+
 
 .material-icons-outlined {
 	color: white;
