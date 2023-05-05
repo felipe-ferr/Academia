@@ -1,32 +1,11 @@
 body {
-	margin: 0px;
-	background-color: F9FFFF;
-
+	margin: 0px
 }
 a{
 	text-decoration: none;
 }
 
-/* width */
-::-webkit-scrollbar {
-  width: 12px;
 
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  background: MediumTurquoise; 
-}
- 
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: SteelBlue; 
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: MidnightBlue; 
-}
 
 .navbar {
 	display:flex;
@@ -106,8 +85,8 @@ a{
 	height:60px;
 	width: 60px;
 	position: fixed;
-	top: 100;
-	left: 15;
+	top: 50;
+	left: 70;
 	justify-content: center;
 	align-items: center;
 	border-radius: 15px;
@@ -147,7 +126,7 @@ a{
 
 .navEsquerda {
 	display: flex;
-	flex: 0%;
+	flex: 20%;
 	align-items: center;
 	flex-direction: column;
 }
@@ -160,7 +139,7 @@ a{
 
 .sumario {
 	display: flex;
-	width: 0%;
+	width: 20%;
 	background-color: PaleTurquoise;
 	align-items: center;
 	flex-direction: column;
@@ -187,7 +166,7 @@ a{
 	align-items: center;
 	justify-content:flex-start;
 	font-family: 'Cabin', sans-serif;
-	font-size: 20px;
+	font-size: 15px;
 	transition-duration: 0.2s;
 	color: black;
 	padding: 20px;
@@ -201,13 +180,12 @@ a{
 	
 
 .principal {
-	background-color: white;
-	background-size: cover;
 	display: flex;
-	flex: 90%;
+	flex: 80%;
 	flex-direction: column;
 	align-items: center;
 	gap: 70px;
+	margin-top: 50px;
 
 }
 .principal p{
@@ -217,13 +195,6 @@ a{
 	font-family: 'Cabin', sans-serif;
 	font-size: 20px;
 	text-align: center;
-}
-
-.containerLink {
-	background-color: rgba(127, 255, 212, 0.644);
-	box-sizing: border-box;
-    padding: 30px;
-	border-radius: 20px;
 }
 
 
@@ -266,167 +237,12 @@ a{
 	margin:0px;
 	display:flex;
 	justify-content: center;
-	font-family: 'Cabin', sans-serif;
+	font-family: 'Rubik', sans-serif;
 	font-size: 20px;
 	text-align: center;
 	width:80%;
 	transition-duration: 0.3s;
 }
-
-.linksPrincipal {
-	display:flex;
-	width: 100%;
-	justify-content: center;
-	align-items: center;
-	flex-wrap: wrap;
-	flex-direction: row;
-	height: auto;
-	gap: 50px;
-	
-}
-.linksPrincipal a{
-	background-color: LightCyan;
-	padding: 30px;
-	text-decoration: none;
-	font-family: 'Cabin', sans-serif;
-	font-size: 30px;
-	height: 100px;
-	color:Navy;
-	border-radius:0px;
-	display:flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	border: 4px solid PowderBlue;
-	width: 200px;
-	transition-duration: 0.4s;
-}
-
-.linksPrincipal a:hover{
-	color:SteelBlue;
-	background-color: LightCyan;
-	transform: scale(1.03);
-}
-
-.linksPrincipal a:hover ion-icon.bulb{
-	color:FEE34E;
-}
-
-.linksPrincipal a:hover ion-icon{
-	color:SteelBlue;
-}
-
-.linksPrincipal ion-icon{
-	font-size: 50px;
-	transition-duration: 0.2s;
-}
-.linksPrincipal ion-icon.bulb{
-	font-size: 50px;
-	transition-duration: 0.3s;
-}
-
-.linksSites {
-	display:flex;
-	width: 100%;
-	justify-content: center;
-	align-items: center;
-	flex-wrap: wrap;
-	flex-direction: row;
-	height: auto;
-	gap: 50px;
-	
-}
-.linksSites img{
-	height: 200px;
-	width: 300px;
-}
-
-.petchoppfundo {
-	background-image: url("imagem/index/petchoppfundo.png");
-	background-size: 2500px;
-	background-position: left;
-	padding: 30px;
-	text-decoration: none;
-	font-family: 'Cabin', sans-serif;
-	font-size: 30px;
-	height: 200px;
-	color:Navy;
-	border-radius:0px;
-	display:flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	border: 4px solid DarkRed;
-	width: 350px;
-	transition-duration: 0.4s;
-}
-.petchoppfundo:hover{
-	transform: scale(1.05);
-}
-
-.smartflipfundo {
-    background-color: #160821;
-	padding: 30px;
-	text-decoration: none;
-	font-family: 'Cabin', sans-serif;
-	font-size: 30px;
-	height: 200px;
-	color:Navy;
-	border-radius:0px;
-	display:flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	border: 4px solid Purple;
-	width: 350px;
-	transition-duration: 0.4s;
-}
-.smartflipfundo:hover{
-	transform: scale(1.05);
-}
-
-.contLinksR{
-	display:flex;
-	width:100%;
-	justify-content: center;
-	align-items: center;
-	gap: 70px;
-	height:auto;
-	
-
-}
-.linksrapidos {
-	background-color:LightCyan;
-	display:flex;
-	justify-content: flex-start;
-	align-items: center;
-	flex-direction: column;
-	height: auto;
-	width: 350px;
-	overflow:hidden;
-	border: 4px solid PowderBlue;
-}
-.linksrapidos a{
-	display:flex;
-	width:100%;
-	justify-content:center;
-	text-align: center;
-	transition-duration: 0.2s;
-	font-family: 'Cabin', sans-serif;
-	font-size: 20px;
-	color:Navy;
-	padding:13px;
-}
-.linksrapidos a:hover{
-	background-color:ADD8E6;
-	color:black;
-}
-
-
-
-
-
-
 
 h1.titulos {
 	display:flex;
@@ -467,15 +283,16 @@ h1.titulosumario {
 }
 
 .footer {
+	margin-top:100px;
 	display:flex;
 	background-color: 091010;
 	align-items: center;
-	justify-content:center;
 	flex-direction: column;
 	width: 100%;
+	height: auto;
 	gap: 15px;
+	position: absolute;
 	z-index:3;
-	margin-top: 100px;
 }
 .footer p{
 	justify-content: center;
@@ -515,14 +332,15 @@ h1.titulosumario {
 
 .navbar {
 	display:flex;
-	background-color: midnightblue;
+	background-color: SteelBlue;
 	justify-content: center;
 	align-items:center;
 	height: 40px;
 	width: 100%;
-	gap: 0px;
+	gap: 10px;
 	position:fixed;
 	top:0;
+	z-index: 3;
 	
 }
 .navbar a{
@@ -604,17 +422,6 @@ h1.titulosumario {
 	display:flex;
 	background-color: PaleTurquoise;
 }
-h1.titulos {
-	display:flex;
-	justify-content: center;
-	font-family: 'Cabin', sans-serif;
-	font-size: 45px;
-	margin:0px;
-	color:black;
-}
-
-
-
 
 
 
